@@ -300,7 +300,7 @@ ui <- pageWithSidebar(
                ".shiny-output-error { visibility: hidden; }",
                ".shiny-output-error:before { visibility: hidden; }"),
     
-    plotOutput("distPlot", height = 720,
+    plotOutput("distPlot", height = 960,
                hover = hoverOpts(
                  id = 'plot_hover'
                )),
